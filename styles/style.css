@@ -29,7 +29,7 @@ nav{
 .logo img{
     width: 100%;
 }
-ul {
+nav ul {
     display: flex;
     justify-content: space-around;
 }
@@ -47,4 +47,136 @@ ul li a {
     font-size: 1.125rem;
 
 font-weight: 500;
+}
+
+.banner {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+
+}
+
+.banner-content {
+    padding-top: 148px;
+    padding-right: 274px;
+}
+
+.banner-content h1{
+    color: #0B0223;
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.banner-content span{
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.banner-content li {
+    color: #534C64;
+text-align: left;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+    margin-top: 10px;
+text-transform: lowercase;
+}
+
+.btn-sign{
+    margin-top: 30px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF42A5;
+    padding: 20px 41px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-rouge {
+    margin-top: 30px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #4EC5F7;
+    padding: 20px 41px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+.banner-image img{
+    width: 100%;
+}
+.online-games {
+    margin-top: 60px;
+}
+.online-games h1{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-games span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-games p {
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 10px 0 30px 0;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.card_one {
+    margin-right: 24px;
+}
+.cards img{
+    width: 100%;
+    width: 342px;
+    height: 400px;
+}
+.card_one p {
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
 }

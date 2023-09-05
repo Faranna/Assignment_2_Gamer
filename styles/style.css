@@ -32,6 +32,7 @@ nav{
 nav ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 ul li{
@@ -40,7 +41,12 @@ ul li{
 
 
 }
-
+.grey {
+    background: rgba(11, 2, 35, 0.10);
+}
+.grey a{
+    margin-right: 5px;
+}
 ul li a {
     text-decoration: none;
     color: #3C354F;
@@ -51,6 +57,7 @@ font-weight: 500;
 
 .banner {
     display: flex;
+    justify-content: space-between;
     padding-left: 240px;
     padding-right: 240px;
     
@@ -60,6 +67,7 @@ font-weight: 500;
 .banner-content {
     padding-top: 148px;
     padding-right: 274px;
+    background-color: rgba(241, 68, 174, 0.03);
 }
 
 .banner-content h1{
@@ -180,3 +188,357 @@ font-weight: 500;
 line-height: 30px;
 text-align: left;
 }
+.texts{
+    display: none;
+}
+.card_one:hover {
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+}
+.play_instantly {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 427px;
+    padding-right: 240px;
+    margin-top: 40px;
+}
+
+.play_instantly span{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 100px;
+}
+.play-content {
+    margin-top: 132px;
+}
+.play_instantly h1 {
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+.play-image {
+    padding-left: 100px;
+}
+.play_instantly p {
+    color: #534C64;
+text-align: left;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.small_image {
+    position: relative;
+    bottom: 244px;
+    right: 45px;
+}
+
+.big_image img {
+    width: 100%;
+}
+
+.lots_of_buttons {
+    
+    padding-left: 239px;
+    padding-right: 302px;
+    
+}
+.first_row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.btn_primary {
+    padding: 10px 20px 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+}
+.btn_primary a{
+    text-decoration: none;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.btn_primary:hover {
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    color: #FF42A5;
+}
+.btn_primary:hover a{
+    color: #FF42A5;
+}
+.first_row button{
+    border: none;
+    background: #FFF; 
+    /* margin-right: 100px;
+    border-radius: 50px;
+    background: #FFF;
+     
+    /* display: flex;
+    flex: wrap; */
+}
+
+footer {
+    height: 636px;
+    background: #0B0223;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-left: 833px;
+    padding-right: 833px;
+    align-items: center;
+}
+.footer-logo span{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-logo h1{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-logo img{
+    width: 86.041px;
+    height: 40px;
+}
+.first_list {
+    padding-left: 563px;
+    padding-right: 563px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first_list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_list ul li{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 40px;
+}
+
+.second_list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 616px;
+    padding-right: 616px;
+}
+.second_list ul{
+    display: flex;
+    justify-content: space-around;
+}
+.second_list ul li{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footer p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.icons {
+    padding-left: 731px;
+    padding-right: 731px;
+}
+
+.icons ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+    nav{
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom:20px;
+        width: 100%;
+    }
+    ul{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    ul li{
+        padding-top: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .banner-content{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-content li{
+        text-align: center;
+    }
+    .online-games, .play_instantly, .lots_of_buttons {
+        padding: 20px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .play-image{
+        padding: 20px;
+        width: 100%;
+    }
+    .big_image {
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .first_row {
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        padding: 20px;
+    }
+    .icons{
+        padding: 20px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        height: 1000px;
+    }
+    .first_list, .second_list {
+        padding: 20px;
+        margin: 0;
+    }
+
+   
+    
+
+}
+
+@media screen and (min-width:425px) and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom:20px;
+        width: 100%;
+    }
+    ul{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    ul li{
+        padding-top: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .banner-content{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-content li{
+        text-align: center;
+    }
+    .online-games, .play_instantly, .lots_of_buttons {
+        padding: 20px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .play-image{
+        padding: 20px;
+        width: 100%;
+    }
+    .big_image {
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .first_row {
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        padding: 20px;
+    }
+    .icons{
+        padding: 20px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        height: 1000px;
+    }
+    .first_list, .second_list {
+        padding: 20px;
+        margin: 0;
+    }
+}
+

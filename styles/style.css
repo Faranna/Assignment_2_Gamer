@@ -470,6 +470,12 @@ line-height: normal;
         padding: 20px;
         margin: 0;
     }
+    .card_one p{
+        text-align: center;
+    }
+    .footer-logo {
+        justify-content: center;
+    }
 
    
     
@@ -484,7 +490,7 @@ line-height: normal;
         width: 100%;
     }
     ul{
-        margin-top: 20px;
+        margin-top: 20px 0 20px 0;
         flex-direction: column;
     }
     ul li{
@@ -492,7 +498,7 @@ line-height: normal;
     }
     .banner{
         flex-direction: column;
-        padding: 20px;
+        padding: 0px;
         
     }
     .banner-content{
@@ -504,13 +510,13 @@ line-height: normal;
         text-align: center;
     }
     .online-games, .play_instantly, .lots_of_buttons {
-        padding: 20px;
+        padding: 0px;
         flex-direction: column;
         width: 100%;
         text-align: center;
     }
     .play-image{
-        padding: 20px;
+        padding: 0px;
         width: 100%;
     }
     .big_image {
@@ -539,6 +545,12 @@ line-height: normal;
     .first_list, .second_list {
         padding: 20px;
         margin: 0;
+    }
+    .card_one p, .play_instantly p{
+        text-align: center;
+    }
+    .footer-logo {
+        justify-content: center;
     }
 }
 

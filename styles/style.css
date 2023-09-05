@@ -172,35 +172,62 @@ margin: 10px 0 30px 0;
     padding-right: 240px;
 }
 .card_one {
-    margin-right: 24px;
+    margin-right: 5px;
+    position: relative;
+    overflow: hidden;
+    
 }
 .cards img{
     width: 100%;
-    width: 342px;
+    width: 330px;
     height: 400px;
+    position: relative;
 }
 .card_one p {
     color: #534C64;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 13px;
 font-style: normal;
 font-weight: 500;
 line-height: 30px;
 text-align: left;
 }
-.texts{
-    display: none;
-}
-.card_one:hover {
-    
-}
+
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+   
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.card_one:hover .overlay{
+    opacity: 0.8;
+}
+.overlay img{
+    width: 48px;
+height: 48px;
+}
+.overlay h3{
+    color: white; /* Adjust the text color */
+    text-align: center;
+    font-size: 18px;
 }
 .play_instantly {
     display: flex;
